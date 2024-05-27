@@ -1,0 +1,32 @@
+  File "/home/thatkrxf/PythonWebApps/PythonAppOne/passenger_wsgi.py", line 94
+    return f"<pre>{results}</pre>"
+                                 ^
+SyntaxError: invalid syntax
+  File "/home/thatkrxf/PythonWebApps/PythonAppOne/passenger_wsgi.py", line 94
+    return f"<pre>{results}</pre>"
+                                 ^
+SyntaxError: invalid syntax
+  File "/home/thatkrxf/PythonWebApps/PythonAppOne/passenger_wsgi.py", line 94
+    return f"<pre>{results}</pre>"
+                                 ^
+SyntaxError: invalid syntax
+  File "/home/thatkrxf/PythonWebApps/PythonAppOne/passenger_wsgi.py", line 94
+    return f"<pre>{results}</pre>"
+                                 ^
+SyntaxError: invalid syntax
+  File "/home/thatkrxf/PythonWebApps/PythonAppOne/passenger_wsgi.py", line 94
+    return f"<pre>{results}</pre>"
+                                 ^
+SyntaxError: invalid syntax
+  File "/home/thatkrxf/PythonWebApps/PythonAppOne/passenger_wsgi.py", line 94
+    return f"<pre>{results}</pre>"
+                                 ^
+SyntaxError: invalid syntax
+  File "/home/thatkrxf/PythonWebApps/PythonAppOne/passenger_wsgi.py", line 94
+    return f"<pre>{results}</pre>"
+                                 ^
+SyntaxError: invalid syntax
+  File "/home/thatkrxf/PythonWebApps/PythonAppOne/passenger_wsgi.py", line 94
+    return f"<pre>{results}</pre>"
+                                 ^
+SyntaxError: invalid syntax
