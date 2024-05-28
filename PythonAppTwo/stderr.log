@@ -1,0 +1,340 @@
+Traceback (most recent call last):
+  File "/home/thatkrxf/PythonWebApps/PythonAppTwo/passenger_wsgi.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+Traceback (most recent call last):
+  File "/home/thatkrxf/PythonWebApps/PythonAppTwo/passenger_wsgi.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+Traceback (most recent call last):
+  File "/home/thatkrxf/PythonWebApps/PythonAppTwo/passenger_wsgi.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+Traceback (most recent call last):
+  File "/home/thatkrxf/PythonWebApps/PythonAppTwo/passenger_wsgi.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+2024-05-27 07:03:17.210914 [ERROR] [UID:2356][0] wsgiHandler getApp [application] failed, pApp=(nil).
+[ERROR] [UID:2356][1461336] wsgiHandler getApp [application] failed, pApp=(nil).
+AttributeError: module 'passenger_wsgi' has no attribute 'application'
+[ERROR] [UID:2356][1461336] wsgiHandler getApp [application] failed, pApp=(nil).
+AttributeError: module 'passenger_wsgi' has no attribute 'application'
+[ERROR] [UID:2356][1461336] wsgiHandler getApp [application] failed, pApp=(nil).
+AttributeError: module 'passenger_wsgi' has no attribute 'application'
+Accuracy: 1.0
+Accuracy: 1.0
+2024-05-27 07:10:54.451468 [ERROR] [UID:2356][0] wsgiHandler getApp [application] failed, pApp=(nil).
+[ERROR] [UID:2356][1483953] wsgiHandler getApp [application] failed, pApp=(nil).
+AttributeError: module 'passenger_wsgi' has no attribute 'application'
+Accuracy: 1.0
+[ERROR] [UID:2356][1504397] wsgiHandler getApp [application] failed, pApp=(nil).
+AttributeError: module 'passenger_wsgi' has no attribute 'application'
+Accuracy: 1.0
+2024-05-27 07:30:26.659715 [ERROR] [UID:2356][0] wsgiHandler getApp [application] failed, pApp=(nil).
+[ERROR] [UID:2356][1540419] wsgiHandler getApp [application] failed, pApp=(nil).
+AttributeError: module 'passenger_wsgi' has no attribute 'application'
+Accuracy: 1.0
+[ERROR] [UID:2356][1588096] wsgiHandler getApp [application] failed, pApp=(nil).
+AttributeError: module 'passenger_wsgi' has no attribute 'application'
+[ERROR] [UID:2356][1588096] wsgiHandler getApp [application] failed, pApp=(nil).
+AttributeError: module 'passenger_wsgi' has no attribute 'application'
+[ERROR] [UID:2356][1588096] wsgiHandler getApp [application] failed, pApp=(nil).
+AttributeError: module 'passenger_wsgi' has no attribute 'application'
+[ERROR] [UID:2356][1588096] wsgiHandler getApp [application] failed, pApp=(nil).
+AttributeError: module 'passenger_wsgi' has no attribute 'application'
+[ERROR] [UID:2356][1588096] wsgiHandler getApp [application] failed, pApp=(nil).
+AttributeError: module 'passenger_wsgi' has no attribute 'application'
+[ERROR] [UID:2356][1588096] wsgiHandler getApp [application] failed, pApp=(nil).
+AttributeError: module 'passenger_wsgi' has no attribute 'application'
+[ERROR] [UID:2356][1588096] wsgiHandler getApp [application] failed, pApp=(nil).
+AttributeError: module 'passenger_wsgi' has no attribute 'application'
+Accuracy: 1.0
+Accuracy: 1.0
+2024-05-27 07:44:58.055857 [ERROR] [UID:2356][0] wsgiHandler getApp [application] failed, pApp=(nil).
+[ERROR] [UID:2356][1604097] wsgiHandler getApp [application] failed, pApp=(nil).
+AttributeError: module 'passenger_wsgi' has no attribute 'application'
+Accuracy: 1.0
+Accuracy: 1.0
+[ERROR] [UID:2356][1614469] wsgiAppHandler pApp->start_response() return NULL.
+Traceback (most recent call last):
+  File "/home/thatkrxf/PythonWebApps/PythonAppTwo/passenger_wsgi.py", line 38, in application
+    md5_hash = hashlib.md5(input_string).hexdigest()
+TypeError: Strings must be encoded before hashing
+[ERROR] [UID:2356][1617429] wsgiAppHandler pApp->start_response() return NULL.
+Traceback (most recent call last):
+  File "/home/thatkrxf/PythonWebApps/PythonAppTwo/passenger_wsgi.py", line 38, in application
+    md5_hash = hashlib.md5(input_string).hexdigest()
+TypeError: Strings must be encoded before hashing
+[ERROR] [UID:2356][1632357] wsgiAppHandler pApp->start_response() return NULL.
+Traceback (most recent call last):
+  File "/home/thatkrxf/PythonWebApps/PythonAppTwo/passenger_wsgi.py", line 38, in application
+    md5_hash = hashlib.md5(input_string).hexdigest()
+TypeError: Strings must be encoded before hashing
+[ERROR] [UID:2356][1632357] wsgiAppHandler pApp->start_response() return NULL.
+Traceback (most recent call last):
+  File "/home/thatkrxf/PythonWebApps/PythonAppTwo/passenger_wsgi.py", line 38, in application
+    md5_hash = hashlib.md5(input_string).hexdigest()
+TypeError: Strings must be encoded before hashing
+Traceback (most recent call last):
+  File "/home/thatkrxf/PythonWebApps/PythonAppTwo/passenger_wsgi.py", line 2, in <module>
+    import seaborn as sns
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib/python2.7/site-packages/seaborn/__init__.py", line 6, in <module>
+    from .rcmod import *
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib/python2.7/site-packages/seaborn/rcmod.py", line 6, in <module>
+    from . import palettes, _orig_rc_params
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib/python2.7/site-packages/seaborn/palettes.py", line 12, in <module>
+    from .utils import desaturate, set_hls_values, get_color_cycle
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib/python2.7/site-packages/seaborn/utils.py", line 11, in <module>
+    import matplotlib.pyplot as plt
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib64/python2.7/site-packages/matplotlib/pyplot.py", line 115, in <module>
+    _backend_mod, new_figure_manager, draw_if_interactive, _show = pylab_setup()
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib64/python2.7/site-packages/matplotlib/backends/__init__.py", line 63, in pylab_setup
+    [backend_name], 0)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib64/python2.7/site-packages/matplotlib/backends/backend_tkagg.py", line 4, in <module>
+    from . import tkagg  # Paint image to Tk photo blitter extension.
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib64/python2.7/site-packages/matplotlib/backends/tkagg.py", line 5, in <module>
+    from six.moves import tkinter as Tk
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib/python2.7/site-packages/six.py", line 213, in load_module
+    mod = mod._resolve()
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib/python2.7/site-packages/six.py", line 120, in _resolve
+    return _import_module(self.mod)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib/python2.7/site-packages/six.py", line 87, in _import_module
+    __import__(name)
+ImportError: No module named Tkinter
+Traceback (most recent call last):
+  File "/home/thatkrxf/PythonWebApps/PythonAppTwo/passenger_wsgi.py", line 2, in <module>
+    import seaborn as sns
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib/python2.7/site-packages/seaborn/__init__.py", line 6, in <module>
+    from .rcmod import *
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib/python2.7/site-packages/seaborn/rcmod.py", line 6, in <module>
+    from . import palettes, _orig_rc_params
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib/python2.7/site-packages/seaborn/palettes.py", line 12, in <module>
+    from .utils import desaturate, set_hls_values, get_color_cycle
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib/python2.7/site-packages/seaborn/utils.py", line 11, in <module>
+    import matplotlib.pyplot as plt
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib64/python2.7/site-packages/matplotlib/pyplot.py", line 115, in <module>
+    _backend_mod, new_figure_manager, draw_if_interactive, _show = pylab_setup()
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib64/python2.7/site-packages/matplotlib/backends/__init__.py", line 63, in pylab_setup
+    [backend_name], 0)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib64/python2.7/site-packages/matplotlib/backends/backend_tkagg.py", line 4, in <module>
+    from . import tkagg  # Paint image to Tk photo blitter extension.
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib64/python2.7/site-packages/matplotlib/backends/tkagg.py", line 5, in <module>
+    from six.moves import tkinter as Tk
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib/python2.7/site-packages/six.py", line 213, in load_module
+    mod = mod._resolve()
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib/python2.7/site-packages/six.py", line 120, in _resolve
+    return _import_module(self.mod)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib/python2.7/site-packages/six.py", line 87, in _import_module
+    __import__(name)
+ImportError: No module named Tkinter
+Traceback (most recent call last):
+  File "/home/thatkrxf/PythonWebApps/PythonAppTwo/passenger_wsgi.py", line 2, in <module>
+    import seaborn as sns
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib/python2.7/site-packages/seaborn/__init__.py", line 6, in <module>
+    from .rcmod import *
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib/python2.7/site-packages/seaborn/rcmod.py", line 6, in <module>
+    from . import palettes, _orig_rc_params
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib/python2.7/site-packages/seaborn/palettes.py", line 12, in <module>
+    from .utils import desaturate, set_hls_values, get_color_cycle
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib/python2.7/site-packages/seaborn/utils.py", line 11, in <module>
+    import matplotlib.pyplot as plt
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib64/python2.7/site-packages/matplotlib/pyplot.py", line 115, in <module>
+    _backend_mod, new_figure_manager, draw_if_interactive, _show = pylab_setup()
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib64/python2.7/site-packages/matplotlib/backends/__init__.py", line 63, in pylab_setup
+    [backend_name], 0)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib64/python2.7/site-packages/matplotlib/backends/backend_tkagg.py", line 4, in <module>
+    from . import tkagg  # Paint image to Tk photo blitter extension.
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib64/python2.7/site-packages/matplotlib/backends/tkagg.py", line 5, in <module>
+    from six.moves import tkinter as Tk
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib/python2.7/site-packages/six.py", line 213, in load_module
+    mod = mod._resolve()
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib/python2.7/site-packages/six.py", line 120, in _resolve
+    return _import_module(self.mod)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib/python2.7/site-packages/six.py", line 87, in _import_module
+    __import__(name)
+ImportError: No module named Tkinter
+Traceback (most recent call last):
+  File "/home/thatkrxf/PythonWebApps/PythonAppTwo/passenger_wsgi.py", line 2, in <module>
+    import seaborn as sns
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib/python2.7/site-packages/seaborn/__init__.py", line 6, in <module>
+    from .rcmod import *
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib/python2.7/site-packages/seaborn/rcmod.py", line 6, in <module>
+    from . import palettes, _orig_rc_params
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib/python2.7/site-packages/seaborn/palettes.py", line 12, in <module>
+    from .utils import desaturate, set_hls_values, get_color_cycle
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib/python2.7/site-packages/seaborn/utils.py", line 11, in <module>
+    import matplotlib.pyplot as plt
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib64/python2.7/site-packages/matplotlib/pyplot.py", line 115, in <module>
+    _backend_mod, new_figure_manager, draw_if_interactive, _show = pylab_setup()
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib64/python2.7/site-packages/matplotlib/backends/__init__.py", line 63, in pylab_setup
+    [backend_name], 0)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib64/python2.7/site-packages/matplotlib/backends/backend_tkagg.py", line 4, in <module>
+    from . import tkagg  # Paint image to Tk photo blitter extension.
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib64/python2.7/site-packages/matplotlib/backends/tkagg.py", line 5, in <module>
+    from six.moves import tkinter as Tk
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib/python2.7/site-packages/six.py", line 213, in load_module
+    mod = mod._resolve()
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib/python2.7/site-packages/six.py", line 120, in _resolve
+    return _import_module(self.mod)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/2.7/lib/python2.7/site-packages/six.py", line 87, in _import_module
+    __import__(name)
+ImportError: No module named Tkinter
+2024-05-27 08:55:30.626568 [ERROR] [UID:2356][0] wsgiHandler getApp [application] failed, pApp=(nil).
+[ERROR] [UID:2356][1875516] wsgiHandler getApp [application] failed, pApp=(nil).
+Exception ignored in: <module 'threading' from '/opt/alt/python36/lib64/python3.6/threading.py'>
+Traceback (most recent call last):
+  File "/opt/alt/python36/lib64/python3.6/threading.py", line 1289, in _shutdown
+    assert tlock.locked()
+SystemError: <built-in method locked of _thread.lock object at 0x7f7a81e4d6c0> returned a result with an error set
+Accuracy: 1.0
+AttributeError: module 'passenger_wsgi' has no attribute 'application'
+Accuracy: 1.0
+2024-05-27 09:00:25.617874 [ERROR] [UID:2356][0] wsgiHandler getApp [application] failed, pApp=(nil).
+[ERROR] [UID:2356][1889706] wsgiHandler getApp [application] failed, pApp=(nil).
+Exception ignored in: <module 'threading' from '/opt/alt/python36/lib64/python3.6/threading.py'>
+Traceback (most recent call last):
+  File "/opt/alt/python36/lib64/python3.6/threading.py", line 1289, in _shutdown
+    assert tlock.locked()
+SystemError: <built-in method locked of _thread.lock object at 0x7f196b3ba6c0> returned a result with an error set
+Accuracy: 1.0
+AttributeError: module 'passenger_wsgi' has no attribute 'application'
+Accuracy: 1.0
+OSError: LSAPI: Socket read/write error
+[2024-05-28 10:25:16,821] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/texmanager.py", line 277, in _run_checked_subprocess
+    stderr=subprocess.STDOUT)
+  File "/opt/alt/python36/lib64/python3.6/subprocess.py", line 356, in check_output
+    **kwargs).stdout
+  File "/opt/alt/python36/lib64/python3.6/subprocess.py", line 423, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/opt/alt/python36/lib64/python3.6/subprocess.py", line 729, in __init__
+    restore_signals, start_new_session)
+  File "/opt/alt/python36/lib64/python3.6/subprocess.py", line 1364, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'latex': 'latex'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/thatkrxf/PythonWebApps/PythonAppTwo/passenger_wsgi.py", line 117, in home
+    plt.savefig(buf, format='png')
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/pyplot.py", line 859, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/figure.py", line 2311, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/backend_bases.py", line 2217, in print_figure
+    **kwargs)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/backend_bases.py", line 1639, in wrapper
+    return func(*args, **kwargs)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/backends/backend_agg.py", line 509, in print_png
+    FigureCanvasAgg.draw(self)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/backends/backend_agg.py", line 407, in draw
+    self.figure.draw(self.renderer)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/artist.py", line 41, in draw_wrapper
+    return draw(artist, renderer, *args, **kwargs)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/figure.py", line 1864, in draw
+    renderer, self, artists, self.suppressComposite)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/artist.py", line 41, in draw_wrapper
+    return draw(artist, renderer, *args, **kwargs)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/cbook/deprecation.py", line 411, in wrapper
+    return func(*inner_args, **inner_kwargs)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/axes/_base.py", line 2707, in draw
+    self._update_title_position(renderer)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/axes/_base.py", line 2648, in _update_title_position
+    if title.get_window_extent(renderer).ymin < top:
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/text.py", line 902, in get_window_extent
+    bbox, info, descent = self._get_layout(self._renderer)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/text.py", line 289, in _get_layout
+    ismath="TeX" if self.get_usetex() else False)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/backends/backend_agg.py", line 228, in get_text_width_height_descent
+    s, fontsize, renderer=self)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/texmanager.py", line 423, in get_text_width_height_descent
+    dvifile = self.make_dvi(tex, fontsize)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/texmanager.py", line 311, in make_dvi
+    texfile], tex)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/texmanager.py", line 281, in _run_checked_subprocess
+    'found'.format(command[0])) from exc
+RuntimeError: Failed to process string with tex because latex could not be found
+[2024-05-28 10:25:22,587] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/texmanager.py", line 277, in _run_checked_subprocess
+    stderr=subprocess.STDOUT)
+  File "/opt/alt/python36/lib64/python3.6/subprocess.py", line 356, in check_output
+    **kwargs).stdout
+  File "/opt/alt/python36/lib64/python3.6/subprocess.py", line 423, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/opt/alt/python36/lib64/python3.6/subprocess.py", line 729, in __init__
+    restore_signals, start_new_session)
+  File "/opt/alt/python36/lib64/python3.6/subprocess.py", line 1364, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'latex': 'latex'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/thatkrxf/PythonWebApps/PythonAppTwo/passenger_wsgi.py", line 117, in home
+    plt.savefig(buf, format='png')
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/pyplot.py", line 859, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/figure.py", line 2311, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/backend_bases.py", line 2217, in print_figure
+    **kwargs)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/backend_bases.py", line 1639, in wrapper
+    return func(*args, **kwargs)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/backends/backend_agg.py", line 509, in print_png
+    FigureCanvasAgg.draw(self)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/backends/backend_agg.py", line 407, in draw
+    self.figure.draw(self.renderer)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/artist.py", line 41, in draw_wrapper
+    return draw(artist, renderer, *args, **kwargs)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/figure.py", line 1864, in draw
+    renderer, self, artists, self.suppressComposite)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/artist.py", line 41, in draw_wrapper
+    return draw(artist, renderer, *args, **kwargs)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/cbook/deprecation.py", line 411, in wrapper
+    return func(*inner_args, **inner_kwargs)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/axes/_base.py", line 2707, in draw
+    self._update_title_position(renderer)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/axes/_base.py", line 2648, in _update_title_position
+    if title.get_window_extent(renderer).ymin < top:
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/text.py", line 902, in get_window_extent
+    bbox, info, descent = self._get_layout(self._renderer)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/text.py", line 289, in _get_layout
+    ismath="TeX" if self.get_usetex() else False)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/backends/backend_agg.py", line 228, in get_text_width_height_descent
+    s, fontsize, renderer=self)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/texmanager.py", line 423, in get_text_width_height_descent
+    dvifile = self.make_dvi(tex, fontsize)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/texmanager.py", line 311, in make_dvi
+    texfile], tex)
+  File "/home/thatkrxf/virtualenv/PythonWebApps/PythonAppTwo/3.6/lib64/python3.6/site-packages/matplotlib/texmanager.py", line 281, in _run_checked_subprocess
+    'found'.format(command[0])) from exc
+RuntimeError: Failed to process string with tex because latex could not be found
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
