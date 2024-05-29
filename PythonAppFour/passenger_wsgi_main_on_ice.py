@@ -155,8 +155,7 @@ def home():
     response += f'<h2>Displacement Graph</h2><img src="{plot_url_1}">'
 
     # Visualization Task 4
-    plt.figure(figsize=(14, 14))
-    plt.subplots_adjust(hspace=0.5, wspace=0.4)
+    plt.figure(figsize=(10, 6))
 
     # X Displacement vs Time (TOP LEFT)
     plt.subplot(3,2,1)
@@ -181,7 +180,7 @@ def home():
     A = np.arange(10000,210001,40000)
     plt.yticks(A)
     plt.xlim((data[:X,13]).min() * 1, (data[:X,13]).max() * 1.1)
-    plt.ylim(min(0,(data[:X,5]).min()) * 1, (data[:X,5]).max() * 1.1)
+    plt.ylim((data[:X,5]).min() * 1, (data[:X,5]).max() * 1.1)
     plt.title('Total mass (rocket + propellant) vs Time', fontweight='bold')
     plt.xlabel('Time elapsed (s)')
     plt.ylabel('Mass (kg)')
