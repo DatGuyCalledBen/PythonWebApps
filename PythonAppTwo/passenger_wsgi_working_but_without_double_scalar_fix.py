@@ -47,7 +47,6 @@ def home():
         circulations = np.random.uniform(-5, 10, (1, no))
 
         def vortex_ode(t, y):
-            epsilon = 1e-8  # Small regularization term to prevent division by zero
             dydt = []
             for i in range(no):
                 xi = y[2 * i]
@@ -58,7 +57,7 @@ def home():
                     if i != j:
                         xj = y[2 * j]
                         yj = y[2 * j + 1]
-                        common_denominator = (xi - xj) ** 2 + (yi - yj) ** 2 + epsilon
+                        common_denominator = (xi - xj) ** 2 + (yi - yj) ** 2
                         sum_x += (circulations[0, j] / (2 * np.pi)) * ((xi - xj) / common_denominator)
                         sum_y += (circulations[0, j] / (2 * np.pi)) * ((yi - yj) / common_denominator)
                 dydt.append(sum_y)
