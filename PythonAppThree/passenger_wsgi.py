@@ -44,7 +44,7 @@ def home():
         plt.rcParams['font.size'] = 14
 
         no = 3
-        circulations = np.array([1, 1, -2])
+        circulations = np.array([1, 1/2, -1/3])
 
         def vortex_ode(t, y):
             epsilon = 1e-8  # Small regularization term to prevent division by zero
@@ -65,7 +65,8 @@ def home():
                 dydt.append(-sum_x)
             return dydt
 
-        initial_conditions = np.array([0, 1, 0, -1, 1, 0])  # [x1, y1, x2, y2, x3, y3]
+        initial_conditions = np.array([-np.sqrt(3)+6*np.sqrt(3)*(1/7),0+6*np.sqrt(3)*(1/7),0+6*np.sqrt(3)*(1/7),0+(2/7),0+(2/7),1+(2/7)])
+
         t_span = (0, 1000)
         t_eval = np.linspace(t_span[0], t_span[1], 1000)
 
@@ -99,15 +100,21 @@ def home():
         ax.axhline(0, color='k', linestyle='--', linewidth=0.5)
         ax.axvline(0, color='k', linestyle='--', linewidth=0.5)
 
-        circulation_center = np.average(final_positions, axis=1, weights=circulations)
-        ax.plot(circulation_center[0], circulation_center[1], 'ro', label='Eye of the Storm')
-        ax.annotate(f'Eye of the Storm: ({circulation_center[0]:.2f}, {circulation_center[1]:.2f})',
-                    xy=(circulation_center[0], circulation_center[1]), xycoords='data',
-                    xytext=(-50, 50), textcoords='offset points',
-                    arrowprops=dict(arrowstyle="->", connectionstyle="arc3,rad=.2"))
+        # Calculate circulation center only if circulation strengths are not all zero
+        if np.sum(circulations) != 0:
+            circulation_center = np.average(final_positions, axis=1, weights=circulations)
+            ax.plot(circulation_center[0], circulation_center[1], 'ro', label='Eye of the Storm')
+            ax.annotate(f'Eye of the Storm: ({circulation_center[0]:.2f}, {circulation_center[1]:.2f})',
+                        xy=(circulation_center[0], circulation_center[1]), xycoords='data',
+                        xytext=(-50, 50), textcoords='offset points',
+                        arrowprops=dict(arrowstyle="->", connectionstyle="arc3,rad=.2"))
+        else:
+            circulation_center = None
 
-        dispersion = np.mean(np.sqrt(np.sum((final_positions - circulation_center[:, np.newaxis]) ** 2, axis=0)))
-        ax.text(-max_lim_x * 0.9, max_lim_y * 0.9, f'Dispersion: {dispersion:.4f}', fontsize=12)
+        # If circulation center is calculated, compute dispersion
+        if circulation_center is not None:
+            dispersion = np.mean(np.sqrt(np.sum((final_positions - circulation_center[:, np.newaxis]) ** 2, axis=0)))
+            ax.text(-max_lim_x * 0.9, max_lim_y * 0.9, f'Dispersion: {dispersion:.4f}', fontsize=12)
 
         handles, labels = ax.get_legend_handles_labels()
         ax.legend(handles, labels, loc='upper right')
